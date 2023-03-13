@@ -1,0 +1,167 @@
+/* Global styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  color: #333;
+  margin: 0;
+}
+
+a {
+  color: #0066cc;
+  margin: 10px;
+  padding: 10px 20px;
+  background-color: #0066cc;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+
+
+h1, h2, h3 {
+  margin-top: 0;
+}
+
+/* Header styles */
+
+
+header li {
+  display: flex;
+  float: right;
+  justify-content: space-evenly;
+}
+
+
+header a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+
+/* Main content styles */
+main {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+section {
+  margin-bottom: 20px;
+}
+
+section h2 {
+  margin-top: 0;
+}
+
+/* Schedule table styles */
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+table th, table td {
+  padding: 8px;
+  border: 1px solid #ddd;
+}
+
+table th {
+  background-color: #0066cc;
+  color: #fff;
+}
+
+table td {
+  text-align: center;
+}
+
+/* Membership form styles */
+form label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+form input[type="text"], form input[type="email"], form input[type="tel"], form select {
+  padding: 5px;
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+form select {
+  height: 35px;
+}
+
+form button[type="submit"] {
+  background-color: #0066cc;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+form button[type="submit"]:hover {
+  background-color: #0059b3;
+}
+
+/* Footer styles */
+footer {
+  display: flex;
+  justify-content: center;
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+}
+
+footer p {
+  margin: 0;
+}
+
+footer a {
+  color: #fff;
+}
+
+@media screen and (max-width: 768px) {
+  /* Responsive styles for screens 768px and below */
+  main {
+      padding: 10px;
+  }
+  nav ul {
+      flex-direction: column;
+  }
+  nav li {
+      margin-right: 0;
+      margin-bottom: 10px;
+  }
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  color: #fff;
+  background-color: #000;
+}
+div {
+ display: flex;
+ justify-content: start;
+}
+a1 {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  margin: 10px;
+  padding: 10px 20px;
+  background-color: #0066cc;
+  border: none;
+  border-radius: 4px;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+a1:hover {
+  background-color: gray;
+}
